@@ -1,0 +1,156 @@
+:root {
+    --red-dark-color: #ED1B24;
+    --blue-color: #293897;
+    --font-dark:black;
+    --font-grey:#000;
+    --font-white:white;
+    
+}
+a{
+    text-decoration: none;
+    color: var(--font-white);
+}
+.row{
+    margin: 0px!important;
+    
+}
+.container-fluid{
+    padding: 0!important;
+}
+
+/*NAVBAR*/
+.navbar{
+    background:white;
+    justify-content: space-between;
+    color: var(--font-grey);
+    align-items: end!important;
+    margin: 5px 60px;
+    padding: .5rem 5rem!important;
+    height: 50px;
+}
+.navbar ul li{
+    display: inline;
+    margin-left: 50px;
+    font-size: 14px;
+}
+.logo{
+    width: 150px;
+    height: 40px
+}
+
+/*HEADER*/
+.header{
+    background-image: linear-gradient(180deg, #C81D3F , #651865, #2D198D);
+    height: 100%;
+    
+    color:var(--font-white);
+    position: relative;
+}
+.man-img{
+    height: 563px;
+    padding-top: 50px;
+   
+}
+.left{
+   align-self: center;
+    text-align-last: center; 
+  
+}
+.button{
+    border-radius: 25px;
+    border: 1px solid var(--red-dark-color);
+    padding: 5px 25px;
+    background-color: var(--red-dark-color);
+    color: var(--font-white);
+}
+/*SERVICES*/
+.heading{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.cards{
+    width: 100%;
+    margin: 0 auto;
+   
+}
+.card{
+    padding: 0px!important;
+    filter: grayscale(50%);
+    width: 100px;
+    height: 350px;
+    margin: 0px 2px 10px 2px;
+        filter: opacity(0.7);
+    background-color: hsl(0, 100%, 50%);
+    
+    
+}
+.card:first-child{
+    margin-left: auto;
+}
+.card:last-child{
+    margin-right: auto;
+}
+.service-img{
+    width: 100%;
+    height: 410px
+    position: relative;
+    overflow: hidden;
+}
+.service-img img{
+    max-width: 100%;
+    height: auto
+}
+.info{
+    position: absolute;
+    bottom: 10%;
+    left: 20%;
+    
+}
+/* ADVANTAGES*/
+.advantages{
+    background-color: #F0F0F0;
+}
+/*PARTNERS*/
+.banks{
+        display: flex;
+    justify-content: space-around;
+width: 100%;
+}
+.banks ul li img{
+    width: 110px;
+    height: 60px
+}
+.banks ul li{
+    display: inline;
+    padding: 15px;
+}
+/*TESTIMONIAL*/
+.testimonial{
+   
+    
+}
+.testimonial img{
+    margin: 0px auto;
+    position: relative;
+}
+.text-box{
+    
+    width: 390px;
+    position: absolute;
+    left: 275px;
+    top: 2285px;
+    font-size: 15px;
+    color: white;
+    filter: opacity(0.6);
+    background-color: black;
+    padding: 25px;
+
+}
+/*FOOTER*/
+.footer{
+    background-color: #333333;
+    color: white;
+}
